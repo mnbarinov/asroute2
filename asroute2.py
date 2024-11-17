@@ -82,16 +82,16 @@ def print_usage():
 Используйте скрипт для получения маршрутов автономной системы (AS) и их укрупнения.
 
 Пример запуска:
-  ./asroute2.py 15169
-  ./asroute2.py 15169 --tolerance 8
+  asroute2 15169
+  asroute2 15169 --tolerance 8
 
 Аргументы:
   as_number    Номер автономной системы (например, 15169).
   --tolerance  Допустимое количество пропущенных сетей для объединения (по умолчанию 0).
 
 Example usage in English:
-  ./asroute2.py 15169
-  ./asroute2.py 15169 --tolerance 8
+  asroute2 15169
+  asroute2 15169 --tolerance 8
 """
     print(usage_text)
 
