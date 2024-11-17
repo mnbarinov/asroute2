@@ -19,6 +19,7 @@ Download the repository:
 ```bash
 git clone https://github.com/mnbarinov/asroute2.git
 cd asroute2
+chmod +x $(pwd)/asroute2.py
 # Create a symbolic link to use asroute2 as a command:
 sudo ln -s $(pwd)/asroute2.py /usr/local/bin/asroute2
 ```
